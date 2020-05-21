@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0QM3gJfCEequlr0oCB_RpQ" name="main" visibility="public">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0ROyQJfCEequlr0oCB_RpQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_0QkD4JfCEequlr0oCB_RpQ" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GzyugJfDEequlr0oCB_RpQ" name="Student"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_J0yaUJfDEequlr0oCB_RpQ" name="get a list of tests"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aIn1MJfDEequlr0oCB_RpQ" name="get a list of questions from the test"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nAnbUJfDEequlr0oCB_RpQ" name="Teacher"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_q6l9kJfDEequlr0oCB_RpQ" name="get a list of tests"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_zQOLwJfDEequlr0oCB_RpQ" name="Admin"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1Kp4IJfDEequlr0oCB_RpQ" name="get a list of users"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x7iFgJtMEeqy-sJcXaLbeg" name="start test"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2WJ2sJtMEeqy-sJcXaLbeg" name="get the number of questions in the test"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vv2dcJtNEeqy-sJcXaLbeg" memberEnd="_Vv45sJtNEeqy-sJcXaLbeg _Vv6H0JtNEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vv3rkJtNEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vv4SoJtNEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vv45sJtNEeqy-sJcXaLbeg" name="get list tests" type="_J0yaUJfDEequlr0oCB_RpQ" association="_Vv2dcJtNEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vv6H0JtNEeqy-sJcXaLbeg" name="student" type="_GzyugJfDEequlr0oCB_RpQ" association="_Vv2dcJtNEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WdFW4JtNEeqy-sJcXaLbeg" memberEnd="_WdF98ptNEeqy-sJcXaLbeg _WdGlAJtNEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WdF98JtNEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WdF98ZtNEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WdF98ptNEeqy-sJcXaLbeg" name="get list quesion from the test" type="_aIn1MJfDEequlr0oCB_RpQ" association="_WdFW4JtNEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WdGlAJtNEeqy-sJcXaLbeg" name="student" type="_GzyugJfDEequlr0oCB_RpQ" association="_WdFW4JtNEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YWXMsJtNEeqy-sJcXaLbeg" memberEnd="_YWXzwptNEeqy-sJcXaLbeg _YWXzw5tNEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YWXzwJtNEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YWXzwZtNEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YWXzwptNEeqy-sJcXaLbeg" name="get list users" type="_1Kp4IJfDEequlr0oCB_RpQ" association="_YWXMsJtNEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YWXzw5tNEeqy-sJcXaLbeg" name="admin" type="_zQOLwJfDEequlr0oCB_RpQ" association="_YWXMsJtNEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YykAgJtNEeqy-sJcXaLbeg" memberEnd="_YylOoZtNEeqy-sJcXaLbeg _YylOoptNEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YyknkJtNEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YylOoJtNEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YylOoZtNEeqy-sJcXaLbeg" name="get list (his) tests" type="_q6l9kJfDEequlr0oCB_RpQ" association="_YykAgJtNEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YylOoptNEeqy-sJcXaLbeg" name="teacher" type="_nAnbUJfDEequlr0oCB_RpQ" association="_YykAgJtNEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uDEwwJtNEeqy-sJcXaLbeg" name="get a list of teacher"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xjlDEJtNEeqy-sJcXaLbeg" name="get a list of student"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_z5kqEJtNEeqy-sJcXaLbeg" memberEnd="_z5l4MJtNEeqy-sJcXaLbeg _z5l4MZtNEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z5lRIJtNEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5lRIZtNEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z5l4MJtNEeqy-sJcXaLbeg" name="get a list of teacher" type="_uDEwwJtNEeqy-sJcXaLbeg" association="_z5kqEJtNEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z5l4MZtNEeqy-sJcXaLbeg" name="admin" type="_zQOLwJfDEequlr0oCB_RpQ" association="_z5kqEJtNEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0TzvAJtNEeqy-sJcXaLbeg" memberEnd="_0T09IJtNEeqy-sJcXaLbeg _0T09IZtNEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0T0WEJtNEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T0WEZtNEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0T09IJtNEeqy-sJcXaLbeg" name="get a list of student" type="_xjlDEJtNEeqy-sJcXaLbeg" association="_0TzvAJtNEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0T09IZtNEeqy-sJcXaLbeg" name="admin" type="_zQOLwJfDEequlr0oCB_RpQ" association="_0TzvAJtNEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_86AIwJtNEeqy-sJcXaLbeg" name="get test result"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Fk6qcJtOEeqy-sJcXaLbeg" memberEnd="_Fk7RgZtOEeqy-sJcXaLbeg _Fk7RgptOEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fk6qcZtOEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fk7RgJtOEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Fk7RgZtOEeqy-sJcXaLbeg" name="get test result" type="_86AIwJtNEeqy-sJcXaLbeg" association="_Fk6qcJtOEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Fk7RgptOEeqy-sJcXaLbeg" name="teacher" type="_nAnbUJfDEequlr0oCB_RpQ" association="_Fk6qcJtOEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G1AZUJtOEeqy-sJcXaLbeg" memberEnd="_G1BAYptOEeqy-sJcXaLbeg _G1BncJtOEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G1BAYJtOEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G1BAYZtOEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G1BAYptOEeqy-sJcXaLbeg" name="get nuber question" type="_2WJ2sJtMEeqy-sJcXaLbeg" association="_G1AZUJtOEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G1BncJtOEeqy-sJcXaLbeg" name="student" type="_GzyugJfDEequlr0oCB_RpQ" association="_G1AZUJtOEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HW4XUJtOEeqy-sJcXaLbeg" memberEnd="_HW4-YptOEeqy-sJcXaLbeg _HW5lcJtOEeqy-sJcXaLbeg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HW4-YJtOEeqy-sJcXaLbeg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HW4-YZtOEeqy-sJcXaLbeg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HW4-YptOEeqy-sJcXaLbeg" name="start test" type="_x7iFgJtMEeqy-sJcXaLbeg" association="_HW4XUJtOEeqy-sJcXaLbeg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HW5lcJtOEeqy-sJcXaLbeg" name="student" type="_GzyugJfDEequlr0oCB_RpQ" association="_HW4XUJtOEeqy-sJcXaLbeg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hJ83UJtPEeqy-sJcXaLbeg" name="User" visibility="public" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WywkkJtQEeqy-sJcXaLbeg" name="firstName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xLUMsJtQEeqy-sJcXaLbeg" name="lastName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jS0BQJtPEeqy-sJcXaLbeg" name="Student">
+    <generalization xmi:type="uml:Generalization" xmi:id="_yopi0JtPEeqy-sJcXaLbeg" general="_hJ83UJtPEeqy-sJcXaLbeg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LlovYJtREeqy-sJcXaLbeg" name="getTests"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_M6r2wJtREeqy-sJcXaLbeg" name="getQuestions"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OCPUsJtREeqy-sJcXaLbeg" name="getNumberQuestion"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OEmsMJtREeqy-sJcXaLbeg" name="startTest"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kS4XIJtPEeqy-sJcXaLbeg" name="Teacher">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uoF3cJtPEeqy-sJcXaLbeg" general="_hJ83UJtPEeqy-sJcXaLbeg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HALKsJtSEeqy-sJcXaLbeg" name="getTests" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KBip8JtSEeqy-sJcXaLbeg" name="getTestResult"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lSINoJtPEeqy-sJcXaLbeg" name="Admin">
+    <generalization xmi:type="uml:Generalization" xmi:id="_2MljoJtPEeqy-sJcXaLbeg" general="_hJ83UJtPEeqy-sJcXaLbeg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OhHzoJtSEeqy-sJcXaLbeg" name="getUsers"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QbKecJtSEeqy-sJcXaLbeg" name="getTeachers"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SWrI4JtSEeqy-sJcXaLbeg" name="getStudents"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Gt22MJtTEeqy-sJcXaLbeg" name="Question">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MIU60JtTEeqy-sJcXaLbeg" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QC56AJtTEeqy-sJcXaLbeg" name="getText" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IUhSAJtTEeqy-sJcXaLbeg" name="getName" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xVJWwJtTEeqy-sJcXaLbeg" name="getText"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__QzZUJtTEeqGQP7KpxAvQQ" name="Test">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FtHVcJtUEeqGQP7KpxAvQQ" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aBBTgJtUEeqGQP7KpxAvQQ" name="questions" visibility="private" type="_Gt22MJtTEeqy-sJcXaLbeg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c6EkQJtUEeqGQP7KpxAvQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c5vNEJtUEeqGQP7KpxAvQQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__46a0JtWEeqGQP7KpxAvQQ" name="teacher" visibility="private" type="_kS4XIJtPEeqy-sJcXaLbeg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GLE8c5tXEeqGQP7KpxAvQQ" name="teacher" type="_kS4XIJtPEeqy-sJcXaLbeg" aggregation="shared" association="_GLE8cJtXEeqGQP7KpxAvQQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_13edAJtUEeqGQP7KpxAvQQ" name="TestBase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4byz4JtUEeqGQP7KpxAvQQ" name="tests" visibility="private" type="__QzZUJtTEeqGQP7KpxAvQQ" aggregation="shared">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7VsZMJtUEeqGQP7KpxAvQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7VwDkJtUEeqGQP7KpxAvQQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AhK_kJtVEeqGQP7KpxAvQQ" visibility="public" memberEnd="_AhNb0JtVEeqGQP7KpxAvQQ _AhOC4ptVEeqGQP7KpxAvQQ" navigableOwnedEnd="_AhNb0JtVEeqGQP7KpxAvQQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AhMNsJtVEeqGQP7KpxAvQQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhM0wJtVEeqGQP7KpxAvQQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AhOC4ptVEeqGQP7KpxAvQQ" type="_13edAJtUEeqGQP7KpxAvQQ" association="_AhK_kJtVEeqGQP7KpxAvQQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AhNb0JtVEeqGQP7KpxAvQQ" type="__QzZUJtTEeqGQP7KpxAvQQ" aggregation="shared" association="_AhK_kJtVEeqGQP7KpxAvQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AhOC4JtVEeqGQP7KpxAvQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AhOC4ZtVEeqGQP7KpxAvQQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_B-6v8JtVEeqGQP7KpxAvQQ" visibility="public" memberEnd="_B-7XAptVEeqGQP7KpxAvQQ _B-7-EptVEeqGQP7KpxAvQQ" navigableOwnedEnd="_B-7XAptVEeqGQP7KpxAvQQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B-7XAJtVEeqGQP7KpxAvQQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B-7XAZtVEeqGQP7KpxAvQQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B-7-EptVEeqGQP7KpxAvQQ" type="__QzZUJtTEeqGQP7KpxAvQQ" association="_B-6v8JtVEeqGQP7KpxAvQQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B-7XAptVEeqGQP7KpxAvQQ" type="_Gt22MJtTEeqy-sJcXaLbeg" aggregation="shared" association="_B-6v8JtVEeqGQP7KpxAvQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B-7-EJtVEeqGQP7KpxAvQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B-7-EZtVEeqGQP7KpxAvQQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GLE8cJtXEeqGQP7KpxAvQQ" memberEnd="_GLE8c5tXEeqGQP7KpxAvQQ _GLFjgptXEeqGQP7KpxAvQQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GLE8cZtXEeqGQP7KpxAvQQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GLE8cptXEeqGQP7KpxAvQQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GLFjgptXEeqGQP7KpxAvQQ" name="test" type="__QzZUJtTEeqGQP7KpxAvQQ" association="_GLE8cJtXEeqGQP7KpxAvQQ"/>
+  </packagedElement>
+</uml:Model>
